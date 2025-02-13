@@ -1,0 +1,7 @@
+<button (mouseenter)="changeImage('si', true)" (mouseleave)="changeImage('si', false)" (click)="accept()">
+    <img [src]="siImage" alt="Sí">
+</button>
+  
+<button (mouseenter)="changeImage('no', true)" (mouseleave)="changeImage('no', false)" (click)="deny()">
+    <img [src]="noImage" alt="No">
+</button>

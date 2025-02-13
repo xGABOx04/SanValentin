@@ -1,0 +1,23 @@
+ button {
+    margin: 0 85px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: transparent; /* Fondo transparente para que solo se vea la imagen */
+    border: none;
+    cursor: pointer;
+  }
+  
+  button img {
+    width: 120px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    transition: transform 0.2s ease; /* Efecto de transición */
+  }
+  
+  button:hover img {
+    transform: scale(1.1); /* Efecto de escala al pasar el cursor */
+  }
+
+  
+
+  

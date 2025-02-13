@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+  }
+  
+  app-sticker, app-question, app-buttons {
+    margin: 10px 0; /* Espaciado entre elementos */
+  }

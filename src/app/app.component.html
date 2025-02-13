@@ -1,0 +1,7 @@
+<app-music></app-music>
+<app-video-background></app-video-background>
+<div class="container">
+    <app-sticker [imageUrl]="stickerImage"></app-sticker>
+    <app-question [text]="questionText"></app-question>
+    <app-buttons *ngIf="showButtons" (accepted)="onAccepted()" (rejected)="onRejected()"></app-buttons>
+</div>
